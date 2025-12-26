@@ -1,0 +1,19 @@
+using System;
+
+class Calculator
+{
+    public void AddNumbers(int a, int b)
+    {
+        int sum = a + b;
+        Console.WriteLine("Sum: " + sum);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Calculator calc = new Calculator();
+        calc.AddNumbers(5, 3);
+    }
+}
